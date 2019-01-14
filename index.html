@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bounce JS</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #controlPanel {
+            width: 500px;
+            background: #eee;
+            border: 2px solid #000;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        #operationDiv {
+            background: rgba(189, 187, 187, 0.979);
+        }
+
+        canvas {
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <div id="controlPanel">
+        <h1>Bounce JS</h1>
+        <div id="flex-container">
+            <div id="operationDiv"><p>Operación</p></div>
+            <div id="timer">Time: </div>
+            <div id="scoreDiv">Score: </div>
+            <button>Reset</button>
+        </div>
+    </div>
+</body>
+<script src="canvas.js"></script>
+<script src="Panel-functionality.js"></script>
+</html>
